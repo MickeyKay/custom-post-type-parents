@@ -1,0 +1,21 @@
+{
+  "title": "Custom Post Type Parents",
+  "description": "The best WordPress extension ever made!",
+  "version": "1.0.1",
+  "homepage": "http://wordpress.org/plugins/custom-post-type-parents",
+  "author": {
+    "name": "MIGHTYminnow Web Studio & School",
+    "email": "info@mightyminnow.com",
+    "url": "http://mightyminnow.com/plugin-landing-page?utm_source=custom-post-type-parents&utm_medium=plugin-repo&utm_campaign=WordPress%20Plugins"
+  },
+  "devDependencies": {
+    "grunt": "latest",
+    "load-grunt-tasks": "latest",
+    "grunt-dev-update": "latest",
+    "grunt-prompt": "latest",
+    "grunt-text-replace": "latest",
+    "grunt-wp-i18n": "latest",
+    "grunt-contrib-copy": "^0.7.0"
+  },
+  "keywords": []
+}
