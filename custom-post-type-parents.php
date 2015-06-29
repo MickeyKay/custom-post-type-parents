@@ -12,7 +12,7 @@
  * Plugin Name:       Custom Post Type Parents
  * Plugin URI:        http://wordpress.org/plugins/custom-post-type-parents
  * Description:       Set a "parent page" for custom post types that is indicated in menus and lists of pages.
- * Version:           1.0.1
+ * Version:           1.1.0
  * Author:            MIGHTYminnow & Mickey Kay
  * Author URI:        mickey@mickeykaycreative.com
  * License:           GPLv2+
@@ -89,7 +89,6 @@ class Custom_Post_Type_Parents {
      */
     protected $post_type_args = array(
         'public'   => true,
-        '_builtin' => false,
     );
 
     /**
@@ -441,33 +440,13 @@ class Custom_Post_Type_Parents {
 
             $option_name = 'parent-' . $args['post_type_object']->name;
 
-            // Output the <select> element.
-            printf( '<select id="%s" name="%s[%s]">',
-            		$option_name,
-            		$this->option_name,
-            		$option_name
+            $args = array(
+                'id'               => $option_name,
+                'name'             => $this->option_name . '[' . $option_name . ']',
+                'selected'         => ! empty( $this->options[ $option_name ] ) ? $this->options[ $option_name ] : '',
+                'show_option_none' => __( 'None', 'custom-post-type-parents' ),
             );
-
-            // Add 'None' option.
-			printf(
-                '<option value="%s" %s>%s</option>',
-                'none',
-                '',
-                __( 'None', 'custom-post-type-parents' )
-            );
-
-            foreach ( $pages as $page ) {
-
-                printf(
-                    '<option value="%s" %s>%s</option>',
-                    $page->ID,
-                    selected( $page->ID, $this->options[ $option_name ], false ),
-                    $page->post_title
-                );
-
-            }
-
-            echo '</select>';
+            wp_dropdown_pages( $args );
 
         } else {
         	echo __( 'There are no pages to choose from.', 'custom-post-type-parents' );

@@ -2,10 +2,10 @@
 # This file is distributed under the GPLv2+.
 msgid ""
 msgstr ""
-"Project-Id-Version: Custom Post Type Parents 1.0.1\n"
+"Project-Id-Version: Custom Post Type Parents 1.1.0\n"
 "Report-Msgid-Bugs-To: "
 "http://wordpress.org/support/plugin/custom-post-type-parents\n"
-"POT-Creation-Date: 2015-06-08 22:33:22+00:00\n"
+"POT-Creation-Date: 2015-06-29 19:11:06+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -18,39 +18,36 @@ msgstr ""
 msgid "Custom Post Type Parents"
 msgstr ""
 
-#: custom-post-type-parents.php:405
+#: custom-post-type-parents.php:404
 #: svn/tags/1.0.0/custom-post-type-parents.php:389
 #: svn/tags/1.0.1/custom-post-type-parents.php:405
 #: svn/tags/1.0.1/svn-2/tags/1.0.0/custom-post-type-parents.php:389
 #: svn/trunk/custom-post-type-parents.php:405
 #: svn/trunk/svn-2/tags/1.0.0/custom-post-type-parents.php:389
-#: svn-2/tags/1.0.0/custom-post-type-parents.php:389
 msgid "Select a parent for each custom post type."
 msgstr ""
 
-#: custom-post-type-parents.php:407
+#: custom-post-type-parents.php:406
 #: svn/tags/1.0.1/custom-post-type-parents.php:407
 #: svn/trunk/custom-post-type-parents.php:407
 msgid "There are currently no registered custom post types to edit."
 msgstr ""
 
-#: custom-post-type-parents.php:456
+#: custom-post-type-parents.php:447
 #: svn/tags/1.0.0/custom-post-type-parents.php:437
 #: svn/tags/1.0.1/custom-post-type-parents.php:456
 #: svn/tags/1.0.1/svn-2/tags/1.0.0/custom-post-type-parents.php:437
 #: svn/trunk/custom-post-type-parents.php:456
 #: svn/trunk/svn-2/tags/1.0.0/custom-post-type-parents.php:437
-#: svn-2/tags/1.0.0/custom-post-type-parents.php:437
 msgid "None"
 msgstr ""
 
-#: custom-post-type-parents.php:473
+#: custom-post-type-parents.php:452
 #: svn/tags/1.0.0/custom-post-type-parents.php:454
 #: svn/tags/1.0.1/custom-post-type-parents.php:473
 #: svn/tags/1.0.1/svn-2/tags/1.0.0/custom-post-type-parents.php:454
 #: svn/trunk/custom-post-type-parents.php:473
 #: svn/trunk/svn-2/tags/1.0.0/custom-post-type-parents.php:454
-#: svn-2/tags/1.0.0/custom-post-type-parents.php:454
 msgid "There are no pages to choose from."
 msgstr ""
 
@@ -60,20 +57,13 @@ msgstr ""
 #: svn/tags/1.0.1/svn-2/tags/1.0.0/includes/custom-simple-section-nav.php:16
 #: svn/trunk/includes/custom-simple-section-nav.php:16
 #: svn/trunk/svn-2/tags/1.0.0/includes/custom-simple-section-nav.php:16
-#: svn-2/tags/1.0.0/includes/custom-simple-section-nav.php:16
 msgid ""
 "A custom version of the Simple Section Navigation widget that is integrated "
 "with the Custom Post Type Parents plugin."
 msgstr ""
 
 #: includes/custom-simple-section-nav.php:17
-#: svn/tags/1.0.0/includes/custom-simple-section-nav.php:17
-#: svn/tags/1.0.1/includes/custom-simple-section-nav.php:17
-#: svn/tags/1.0.1/svn-2/tags/1.0.0/includes/custom-simple-section-nav.php:17
-#: svn/trunk/includes/custom-simple-section-nav.php:17
-#: svn/trunk/svn-2/tags/1.0.0/includes/custom-simple-section-nav.php:17
-#: svn-2/tags/1.0.0/includes/custom-simple-section-nav.php:17
-msgid "Simple Section Navigation [Custom]"
+msgid "Simple Section Navigation [Custom Post Type Parents]"
 msgstr ""
 
 #: includes/custom-simple-section-nav.php:115
@@ -82,7 +72,6 @@ msgstr ""
 #: svn/tags/1.0.1/svn-2/tags/1.0.0/includes/custom-simple-section-nav.php:115
 #: svn/trunk/includes/custom-simple-section-nav.php:115
 #: svn/trunk/svn-2/tags/1.0.0/includes/custom-simple-section-nav.php:115
-#: svn-2/tags/1.0.0/includes/custom-simple-section-nav.php:115
 msgid "Override Title:"
 msgstr ""
 
@@ -92,7 +81,6 @@ msgstr ""
 #: svn/tags/1.0.1/svn-2/tags/1.0.0/includes/custom-simple-section-nav.php:120
 #: svn/trunk/includes/custom-simple-section-nav.php:120
 #: svn/trunk/svn-2/tags/1.0.0/includes/custom-simple-section-nav.php:120
-#: svn-2/tags/1.0.0/includes/custom-simple-section-nav.php:120
 msgid "Sort pages by:"
 msgstr ""
 
@@ -102,7 +90,6 @@ msgstr ""
 #: svn/tags/1.0.1/svn-2/tags/1.0.0/includes/custom-simple-section-nav.php:122
 #: svn/trunk/includes/custom-simple-section-nav.php:122
 #: svn/trunk/svn-2/tags/1.0.0/includes/custom-simple-section-nav.php:122
-#: svn-2/tags/1.0.0/includes/custom-simple-section-nav.php:122
 msgid "Page title"
 msgstr ""
 
@@ -112,7 +99,6 @@ msgstr ""
 #: svn/tags/1.0.1/svn-2/tags/1.0.0/includes/custom-simple-section-nav.php:123
 #: svn/trunk/includes/custom-simple-section-nav.php:123
 #: svn/trunk/svn-2/tags/1.0.0/includes/custom-simple-section-nav.php:123
-#: svn-2/tags/1.0.0/includes/custom-simple-section-nav.php:123
 msgid "Page order"
 msgstr ""
 
@@ -122,7 +108,6 @@ msgstr ""
 #: svn/tags/1.0.1/svn-2/tags/1.0.0/includes/custom-simple-section-nav.php:124
 #: svn/trunk/includes/custom-simple-section-nav.php:124
 #: svn/trunk/svn-2/tags/1.0.0/includes/custom-simple-section-nav.php:124
-#: svn-2/tags/1.0.0/includes/custom-simple-section-nav.php:124
 msgid "Page ID"
 msgstr ""
 
@@ -132,7 +117,6 @@ msgstr ""
 #: svn/tags/1.0.1/svn-2/tags/1.0.0/includes/custom-simple-section-nav.php:128
 #: svn/trunk/includes/custom-simple-section-nav.php:128
 #: svn/trunk/svn-2/tags/1.0.0/includes/custom-simple-section-nav.php:128
-#: svn-2/tags/1.0.0/includes/custom-simple-section-nav.php:128
 msgid "Exclude:"
 msgstr ""
 
@@ -142,7 +126,6 @@ msgstr ""
 #: svn/tags/1.0.1/svn-2/tags/1.0.0/includes/custom-simple-section-nav.php:134
 #: svn/trunk/includes/custom-simple-section-nav.php:134
 #: svn/trunk/svn-2/tags/1.0.0/includes/custom-simple-section-nav.php:134
-#: svn-2/tags/1.0.0/includes/custom-simple-section-nav.php:134
 msgid "Show on home page"
 msgstr ""
 
@@ -152,7 +135,6 @@ msgstr ""
 #: svn/tags/1.0.1/svn-2/tags/1.0.0/includes/custom-simple-section-nav.php:136
 #: svn/trunk/includes/custom-simple-section-nav.php:136
 #: svn/trunk/svn-2/tags/1.0.0/includes/custom-simple-section-nav.php:136
-#: svn-2/tags/1.0.0/includes/custom-simple-section-nav.php:136
 msgid "Link heading (top level page)"
 msgstr ""
 
@@ -162,7 +144,6 @@ msgstr ""
 #: svn/tags/1.0.1/svn-2/tags/1.0.0/includes/custom-simple-section-nav.php:138
 #: svn/trunk/includes/custom-simple-section-nav.php:138
 #: svn/trunk/svn-2/tags/1.0.0/includes/custom-simple-section-nav.php:138
-#: svn-2/tags/1.0.0/includes/custom-simple-section-nav.php:138
 msgid "Show all pages in section"
 msgstr ""
 
@@ -172,7 +153,6 @@ msgstr ""
 #: svn/tags/1.0.1/svn-2/tags/1.0.0/includes/custom-simple-section-nav.php:140
 #: svn/trunk/includes/custom-simple-section-nav.php:140
 #: svn/trunk/svn-2/tags/1.0.0/includes/custom-simple-section-nav.php:140
-#: svn-2/tags/1.0.0/includes/custom-simple-section-nav.php:140
 msgid "Output even if empty section"
 msgstr ""
 
@@ -182,8 +162,15 @@ msgstr ""
 #: svn/tags/1.0.1/svn-2/tags/1.0.0/includes/custom-simple-section-nav.php:142
 #: svn/trunk/includes/custom-simple-section-nav.php:142
 #: svn/trunk/svn-2/tags/1.0.0/includes/custom-simple-section-nav.php:142
-#: svn-2/tags/1.0.0/includes/custom-simple-section-nav.php:142
 msgid "No nav on excluded pages"
+msgstr ""
+
+#: svn/tags/1.0.0/includes/custom-simple-section-nav.php:17
+#: svn/tags/1.0.1/includes/custom-simple-section-nav.php:17
+#: svn/tags/1.0.1/svn-2/tags/1.0.0/includes/custom-simple-section-nav.php:17
+#: svn/trunk/includes/custom-simple-section-nav.php:17
+#: svn/trunk/svn-2/tags/1.0.0/includes/custom-simple-section-nav.php:17
+msgid "Simple Section Navigation [Custom]"
 msgstr ""
 
 #. Plugin URI of the plugin/theme
