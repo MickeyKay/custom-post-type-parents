@@ -12,7 +12,7 @@
  * Plugin Name:       Custom Post Type Parents
  * Plugin URI:        http://wordpress.org/plugins/custom-post-type-parents
  * Description:       Set a "parent page" for custom post types that is indicated in menus and lists of pages.
- * Version:           1.1.0
+ * Version:           1.1.2
  * Author:            MIGHTYminnow & Mickey Kay
  * Author URI:        mickey@mickeykaycreative.com
  * License:           GPLv2+

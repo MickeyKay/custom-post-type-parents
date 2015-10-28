@@ -4,7 +4,7 @@ Donate link:       http://wordpress.org/plugins/custom-post-type-parents
 Tags:              custom, post, type, parent, menu, list, pages
 Requires at least: 3.5
 Tested up to:      4.3
-Stable tag:        1.1.0
+Stable tag:        1.1.2
 License:           GPLv2 or later
 License URI:       http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -53,6 +53,12 @@ Custom Post Type Parents applies the following classes to parent and ancestor pa
 
 == Changelog ==
 
+= 1.1.2 =
+* Fix: memory issue infinitely calling constructor.
+
+= 1.1.1 =
+* Fix: widget constructor call throwing deprecated notice.
+
 = 1.1.0 =
 * Include posts and pages in customizeable list.
 * Update parent select to show hierarchy indenting for easier use.
@@ -65,6 +71,12 @@ Custom Post Type Parents applies the following classes to parent and ancestor pa
 * First release
 
 == Upgrade Notice ==
+
+= 1.1.2 =
+* Fix: memory issue infinitely calling constructor.
+
+= 1.1.1 =
+* Fix: widget constructor call throwing deprecated notice.
 
 = 1.1.0 =
 * Include posts and pages in customizeable list.

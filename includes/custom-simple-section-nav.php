@@ -12,9 +12,9 @@
 
 class CustomSimpleSectionNav extends WP_Widget
 {
-	function CustomSimpleSectionNav() {
+	function __construct() {
 		$widget_ops = array('classname' => 'simple-section-nav', 'description' => __( "A custom version of the Simple Section Navigation widget that is integrated with the Custom Post Type Parents plugin.") );
-		$this->WP_Widget('simple-section-nav', __('Simple Section Navigation [Custom Post Type Parents]'), $widget_ops);
+		parent::__construct('simple-section-nav', __('Simple Section Navigation [Custom Post Type Parents]'), $widget_ops);
 	}
 
     function widget($args, $instance) {
